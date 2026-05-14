@@ -1,0 +1,12 @@
+{
+  "name": "com.aionui.app",
+  "version": "1.9.25",
+  "private": true,
+  "dependencies": {
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/android": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+/**
+ * @license
+ * Copyright 2025 AionUi (aionui.com)
+ * SPDX-License-Identifier: Apache-2.0
+ */(function(){try{var t=typeof window<"u"?window:typeof global<"u"?global:typeof globalThis<"u"?globalThis:typeof self<"u"?self:{};t.SENTRY_RELEASE={id:"bbada2a9268060d2b41ddf1d885a9b27ecd2103d"};var e=new t.Error().stack;e&&(t._sentryDebugIds=t._sentryDebugIds||{},t._sentryDebugIds[e]="95cebb3c-676a-4ae6-8751-85c6941a7501",t._sentryDebugIdIdentifier="sentry-dbid-95cebb3c-676a-4ae6-8751-85c6941a7501")}catch{}})();const o=(t=8)=>{try{const r=globalThis.crypto;if(r){if(typeof r.randomUUID=="function"&&t>=36)return r.randomUUID();if(typeof r.getRandomValues=="function"){const n=new Uint8Array(Math.ceil(t/2));return r.getRandomValues(n),Array.from(n,a=>a.toString(16).padStart(2,"0")).join("").slice(0,t)}}}catch{}const e=Date.now().toString(36);return(e+e).slice(0,t)},s=t=>{const e=t.toLowerCase();return e.startsWith("zh-tw")?"zh-TW":e.startsWith("zh")?"zh-CN":e.startsWith("ja")?"ja-JP":e.startsWith("ko")?"ko-KR":e.startsWith("tr")?"tr-TR":"en-US"};export{s as r,o as u};
